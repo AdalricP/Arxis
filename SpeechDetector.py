@@ -6,7 +6,7 @@ import os
 def DetectSpeech(language='en'):
     # Set your API endpoint and authorization token
     url = 'https://api.deepinfra.com/v1/inference/openai/whisper-large-v3'
-    headers = {'Authorization': 'bearer Y9a3TYuaelNtXwiPMIxvDdWbGtThp9uo', "language": language}
+    headers = {'Authorization': 'bearer AUTHENTICATION', "language": language}
 
     # Initialize PyAudio
     audio = pyaudio.PyAudio()
