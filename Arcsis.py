@@ -7,7 +7,7 @@ import tools
 import re
 
 openai = OpenAI(
-    api_key="Y9a3TYuaelNtXwiPMIxvDdWbGtThp9uo",
+    api_key="AUTHENTICATION",
     base_url="https://api.deepinfra.com/v1/openai",
 )
 
